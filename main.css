@@ -1,7 +1,7 @@
-.mejs-player {
-  width: 100%; }
-
 .orange {
   color: orange; }
+
+#mep_0 > div > div.mejs__controls {
+  background: green; }
 
 /*# sourceMappingURL=main.css.map */

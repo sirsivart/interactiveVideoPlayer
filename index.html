@@ -8,6 +8,8 @@
 
     <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="normalize.css">
+
     <script src="https://cdn.jsdelivr.net/mediaelement/latest/mediaelement-and-player.min.js"></script>
     <link href="https://cdn.jsdelivr.net/mediaelement/latest/mediaelementplayer.css" rel="stylesheet">
 
@@ -15,41 +17,41 @@
 </head>
 
 <body>
-    <video class="mejs-player" id="video" controls>
+    <video  width="100%" class="mejs__player" id="video" controls>
       <source src="video\video.mp4" type="video/mp4">
       <source src="video\video.ogg" type="video/ogg">
     </video>
     <div class="transcript">
-        <span type="button" aria-pressed="false" onclick="handleBtnClick1(event)" class="cap1 cap">Now that we've looked at the architecture of the internet, let's see how you might</span>
-        <span class="cap2 cap">connect your personal devices to
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick1(event)" class="cap1 cap">Now that we've looked at the architecture of the internet, let's see how you might</span>
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick2(event)" class="cap2 cap">connect your personal devices to
         the internet inside your house.</span>
-        <span class="cap3 cap">Well there are many ways to
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick3(event)" class="cap3 cap">Well there are many ways to
         connect to the internet, and</span>
-        <span class="cap4 cap">most often people connect wirelessly.</span>
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick4(event)" class="cap4 cap">most often people connect wirelessly.</span>
         <br><br>
-        <span class="cap5 cap">Let's look at an example of how
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick5(event)" class="cap5 cap">Let's look at an example of how
         you can connect to the internet.</span>
-        <span class="cap6 cap">If you live in a city or a town,
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick6(event)" class="cap6 cap">If you live in a city or a town,
         you probably have a coaxial cable for</span>
-        <span class="cap7 cap">cable Internet, or a phone line if you
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick7(event)" class="cap7 cap">cable Internet, or a phone line if you
         have DSL, running to the outside of</span>
-        <span class="cap8 cap">your house, that connects you to
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick8(event)" class="cap8 cap">your house, that connects you to
         the Internet Service Provider, or ISP.</span>
-        <span class="cap9 cap">If you live far out in the country,
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick9(event)" class="cap9 cap">If you live far out in the country,
         you'll more likely have</span>
-        <span class="cap10 cap">a dish outside your house, connecting
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick10(event)" class="cap10 cap">a dish outside your house, connecting
         you wirelessly to your closest ISP, or</span>
-        <span class="cap11 cap">you might also use the telephone system.</span>
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick11(event)" class="cap11 cap">you might also use the telephone system.</span>
         <br><br>
-        <span class="cap12 cap">Whether a wire comes straight from
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick12(event)" class="cap12 cap">Whether a wire comes straight from
         the ISP hookup outside your house, or</span>
-        <span class="cap13 cap">it travels over radio
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick13(event)" class="cap13 cap">it travels over radio
         waves from your roof,</span>
-        <span class="cap14 cap">the first stop a wire will make once
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick14(event)" class="cap14 cap">the first stop a wire will make once
         inside your house, is at your modem.</span>
-        <span class="cap15 cap">A modem is what connects the internet
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick15(event)" class="cap15 cap">A modem is what connects the internet
         to your network at home.</span>
-        <span class="cap16 cap">A few common residential modems are DSL or</span>
+        <span style="cursor:pointer" type="button" aria-pressed="false" onclick="handleBtnClick16(event)" class="cap16 cap">A few common residential modems are DSL or</span>
     </div>
 
     <script src="script.js" type="text/javascript">
