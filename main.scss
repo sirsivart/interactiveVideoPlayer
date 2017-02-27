@@ -4,7 +4,46 @@
   color: orange;
 }
 
-
 #mep_0 > div > div.mejs__controls {
-  background: green;
+  background: rgba(12, 115, 14, 0.4);;
+}
+
+
+.videoWrap {
+  height: 180px;
+  width: 320px;
+  margin: auto;
+}
+
+#video {
+  width: 320px;
+  height: 180px;
+}
+
+.transcript {
+  width: 295px;
+  margin: 20px auto;
+}
+
+
+@media (min-width: 750px) {
+  .videoWrap {
+    width: 736px;
+    height: 414px;
+  }
+  #video {
+    width: 736px;
+    height: 414px;
+  }
+  .transcript {
+    width: 735px;
+    margin: 20px auto;
+  }
+  .mejs__VideoWidth {
+    width:736px;
+  }
+  .mejs__VideoHeight {
+    height: 414px;
+  }
+
 }
