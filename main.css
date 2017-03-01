@@ -9,31 +9,17 @@
   width: 320px;
   margin: auto; }
 
-#video {
-  width: 320px;
-  height: 180px; }
-
 .transcript {
   width: 295px;
   margin: 20px auto; }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
   .videoWrap {
-    width: 736px;
-    height: 414px; }
-
-  #video {
-    width: 736px;
-    height: 414px; }
+    width: 656px;
+    height: 369px; }
 
   .transcript {
-    width: 735px;
-    margin: 20px auto; }
-
-  .mejs__VideoWidth {
-    width: 736px; }
-
-  .mejs__VideoHeight {
-    height: 414px; } }
+    width: 650px;
+    margin: 20px auto; } }
 
 /*# sourceMappingURL=main.css.map */
